@@ -77,3 +77,8 @@ Les modèles de génération autorégressive purs (comme GPT-2) exigent un encad
 Sensibilité linguistique : Les modèles testés en NER et PoS sont calibrés pour la langue anglaise ; un passage vers le français nécessite des poids multilingues (ex. XLM-RoBERTa, CamemBERT).
 
 Dimensionnement mémoire : L'inférence CPU reste viable pour des modèles de taille petite ou moyenne (DistilBERT, T5-small, DistilGPT-2), mais le passage à l'échelle sur des corpus nécessite du calcul par lot ( batching ) et une accélération matérielle (CUDA/GPU).
+
+
+
+https://github.com/user-attachments/assets/02aae1c3-0269-4b8e-8eae-a7ce3b6e4a07
+
